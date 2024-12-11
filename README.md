@@ -1,6 +1,6 @@
-# Dropbox Lab
+# Lucid Lab
 
-This repository contains Python scripts designed to automate various tasks related to managing Dropbox accounts, users, and files.
+This repository contains Python scripts designed to automate various tasks related to managing Lucid accounts, users, and files.
 
 ## Table of Contents
   - [Scripts Overview](#scripts-overview)
@@ -13,11 +13,7 @@ This repository contains Python scripts designed to automate various tasks relat
 ## Scripts Overview
 Here’s a list of all the scripts in this repository along with their descriptions:
 
-1. **[dbox_search_account.py](dbox_search_account.py)**: Searches for a specific Dropbox account using criteria like email or name.
-2. **[dbox_search_list_ids.py](dbox_search_list_ids.py)**: Searches and lists Dropbox account IDs, useful for retrieving unique identifiers for further processing.
-3. **[dbox_user_file_export.py](dbox_user_file_export.py)**: Exports the list of files associated with a Dropbox user account, helping to identify files owned by or shared with specific users.
-4. **[dropbox_members_listv2.py](dropbox_members_listv2.py)**: Retrieves a list of all Dropbox members, including their email addresses and account details, for administrative purposes.
-5. **[dropbox_license_monitor.py](dropbox_license_monitor.py)**: This script monitors Dropbox team licenses.
+1. **[lucid_license_monitor.py](lucid_license_monitor.py)**: Searches for a specific Dropbox account using criteria like email or name.
 
 ## Requirements
 - **Python 3.x**: Ensure that Python 3 is installed on your system.
