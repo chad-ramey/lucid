@@ -13,26 +13,17 @@ This repository contains Python scripts designed to automate various tasks relat
 ## Scripts Overview
 Here’s a list of all the scripts in this repository along with their descriptions:
 
-1. **[lucid_license_monitor.py](lucid_license_monitor.py)**: Searches for a specific Dropbox account using criteria like email or name.
+1. **[lucid_license_monitor.py](lucid_license_monitor.py)**: Monitors Lucid licenses and identifies accounts for potential optimization.
 
 ## Requirements
 - **Python 3.x**: Ensure that Python 3 is installed on your system.
-- **Dropbox SDK**: Install the [Dropbox Python SDK](https://www.dropbox.com/developers/documentation/python) to interact with the Dropbox API.
-- **API Keys**: You will need a Dropbox API token to authenticate API requests. Make sure the token has sufficient permissions to perform the required operations.
+- **Lucid API**: Install any required libraries for interacting with the Lucid API (if available).
+- **API Keys**: You will need a Lucid API token to authenticate API requests. Make sure the token has sufficient permissions to perform the required operations.
 
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo-name/dropbox-automation-scripts.git
-   ```
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Set up your Dropbox API tokens and other necessary credentials in environment variables:
-   ```bash
-   export DROPBOX_API_TOKEN="your-token-here"
-   ```
+   git clone https://github.com/chad-ramey/lucid-automation-scripts.git
 
 ## Usage
 Run the desired script from the command line or integrate it into your existing automation workflows.
